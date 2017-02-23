@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D72ACDFA-0C8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetingsLibrary", "src\GreetingsLibrary\GreetingsLibrary.csproj", "{ECEF1059-A60C-4875-9DC8-AC8D032AF573}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E8BA7EB6-DBBD-406D-BADB-4D95AB78182E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPISample.Tests", "test\WebAPISample.Tests\WebAPISample.Tests.csproj", "{95DE973A-C0A1-4B52-8FB2-63FB2720ED75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{ECEF1059-A60C-4875-9DC8-AC8D032AF573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECEF1059-A60C-4875-9DC8-AC8D032AF573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECEF1059-A60C-4875-9DC8-AC8D032AF573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DE973A-C0A1-4B52-8FB2-63FB2720ED75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DE973A-C0A1-4B52-8FB2-63FB2720ED75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DE973A-C0A1-4B52-8FB2-63FB2720ED75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DE973A-C0A1-4B52-8FB2-63FB2720ED75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3804C998-8BB7-4597-9793-6D5CBD3C90A2} = {D72ACDFA-0C85-4CE5-B158-1E1436FB1B9C}
 		{ECEF1059-A60C-4875-9DC8-AC8D032AF573} = {D72ACDFA-0C85-4CE5-B158-1E1436FB1B9C}
+		{95DE973A-C0A1-4B52-8FB2-63FB2720ED75} = {E8BA7EB6-DBBD-406D-BADB-4D95AB78182E}
 	EndGlobalSection
 EndGlobal
