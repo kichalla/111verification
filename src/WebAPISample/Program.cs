@@ -13,6 +13,7 @@ namespace apps
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine(string.Join(",", args));
             var config = new ConfigurationBuilder().AddCommandLine(args).Build();
 
             var host = new WebHostBuilder()
