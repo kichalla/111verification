@@ -13,4 +13,8 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\WebAPISample\WebAPISample.csproj" />
+  </ItemGroup>
 </Project>

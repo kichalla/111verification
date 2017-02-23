@@ -1,5 +1,7 @@
 **/[Oo]bj/
 **/[Bb]in/
+**/*/*.deps.json
+**/*/*.assets.json
 TestResults/
 .nuget/
 *.sln.ide/
