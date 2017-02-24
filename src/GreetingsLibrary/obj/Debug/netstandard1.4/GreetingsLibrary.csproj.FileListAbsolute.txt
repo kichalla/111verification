@@ -1,7 +1,0 @@
-C:\temp\verification\apps\WebAPISample\src\GreetingsLibrary\bin\Debug\netstandard1.4\GreetingsLibrary.deps.json
-C:\temp\verification\apps\WebAPISample\src\GreetingsLibrary\bin\Debug\netstandard1.4\GreetingsLibrary.dll
-C:\temp\verification\apps\WebAPISample\src\GreetingsLibrary\bin\Debug\netstandard1.4\GreetingsLibrary.pdb
-C:\temp\verification\apps\WebAPISample\src\GreetingsLibrary\obj\Debug\netstandard1.4\GreetingsLibrary.AssemblyInfo.cs
-C:\temp\verification\apps\WebAPISample\src\GreetingsLibrary\obj\Debug\netstandard1.4\GreetingsLibrary.dll
-C:\temp\verification\apps\WebAPISample\src\GreetingsLibrary\obj\Debug\netstandard1.4\GreetingsLibrary.pdb
-C:\temp\verification\apps\WebAPISample\src\GreetingsLibrary\obj\Debug\netstandard1.4\GreetingsLibrary.csprojResolveAssemblyReference.cache
