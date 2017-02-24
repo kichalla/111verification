@@ -13,9 +13,12 @@ namespace apps
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(string.Join(",", args));
             var config = new ConfigurationBuilder()
+#if DEBUG
                 .AddUserSecrets("100")
+#else
+                .AddUserSecrets("200")
+#endif
                 .AddCommandLine(args)
                 .Build();
 

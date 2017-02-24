@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
-    <UserSecretsId>100</UserSecretsId>
+    <UserSecretsId Condition="'$(Configuration)'=='Debug'">100</UserSecretsId>
+    <UserSecretsId Condition="'$(Configuration)'=='Release'">200</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
